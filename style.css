@@ -11,6 +11,7 @@ body{
 .outer{
     margin: 15px;
     height: 90vh;
+    box-sizing: border-box;
 }
 .inner1{padding: 10px;
     height: 30vh;
