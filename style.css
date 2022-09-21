@@ -4,9 +4,6 @@ body{
     height: 100vh;width: 100vw;
     background-color: #e6eff6;
     font-family:sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .outer{
     height: 100vh;width: 100vw;
@@ -50,15 +47,17 @@ ul li{
         width: 100%;
         height: 100%;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-        position: relative;
     }
     .inner1{
-            padding: 150px;
+            padding: 120px 0 0 150px;
             box-sizing: border-box;
             width: 100%;
             height: 50%;
             background-color:#ffffff;
             font-size: 30px;
+    }
+    .row{
+        display: flex;
     }
     .inner2{
         width: 50%;
@@ -71,14 +70,12 @@ ul li{
     .inner3{font-size: 20px;
         color: #cae9e7;
         width: 50%;
-        height: 50%;
+        height: 50vh;
         padding: 10px;
         box-sizing: border-box;
         background-color:#48bfbd;
-        position: absolute;
-        top: 50%;
-        left: 50%;
     }
+
 }
         
       
